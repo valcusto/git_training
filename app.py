@@ -18,21 +18,21 @@ def create_dataframe_section(df):
     col_2.header("Data Description")
 
     data_description = """
-                        | Coluna | Descrição |
+                        | Column | Description |
                         | :----- | --------: |
-                        | ID | Identificador da linha/registro |
-                        | name | Fabricante e Modelo da Moto |
-                        | selling_price | Preço de Venda |
-                        | year | Ano de Fabricação da Moto |
-                        | seller_type | Tipo de Vendedor - Se é vendedor pessoal ou revendedor |
-                        | owner | Se é primeiro, segundo, terceiro ou quarto dono da moto |
-                        | km_driven | Quantidade de Quilometros percorrido pela moto |
-                        | ex_showroom_price | Preço da motocicleta sem as taxas de seguro e registro |
-                        | age | Quantidade de anos em que a moto está em uso |
-                        | km_class | Classificação das motos conforme a quilometragem percorrida |
-                        | km_per_year | Quantidade de Quilometros percorridos a cada ano |
-                        | km_per_month | Quantidade de Quilometros percorridos por mês |
-                        | company | Fabricanete da Motocicleta |
+                        | ID | Identification row/register |
+                        | name | Manufacturer and Motorcycle Model |
+                        | selling_price | Selling price |
+                        | year | Year of Manufacture of the Motorcycle |
+                        | seller_type | Type of Seller - Whether it is a private seller or a dealer |
+                        | owner | Whether the motorcycle has had a first, second, third, or fourth owner |
+                        | km_driven | Total kilometers traveled by the motorcycle |
+                        | ex_showroom_price | Price of the motorcycle excluding insurance and registration fees |
+                        | age | Number of years the motorcycle has been in use |
+                        | km_class | Classification of motorcycles based on kilometers traveled |
+                        | km_per_year | Kilometers traveled per year |
+                        | km_per_month | Kilometers traveled per month |
+                        | company | Motorcycle manufacturer |
     """
 
     col_2.markdown(data_description)
