@@ -87,6 +87,5 @@ def create_main_layout():
 
     create_answers_section(df)
 
-
 if __name__ == "__main__":
     create_main_layout()
